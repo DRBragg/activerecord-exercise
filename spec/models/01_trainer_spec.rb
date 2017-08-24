@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Trainer do
+describe Trainer, type: :model do
   it { should have_valid(:name).when("Ash", "Misty", "Brock") }
   it { should_not have_vaild(:name).when('', nil)}
 

@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Pokemon do
+describe Pokemon, type: :model do
   it { should have_valid(:name).when("Pikachu", "Squirtle", "Jigglypuff") }
   it { should_not have_vaild(:name).when('', nil)}
 

@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe MonsterType do
+describe MonsterType, type: :model do
   it { should belong_to :pokemon }
   it { should belong_to :type }
 
