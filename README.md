@@ -28,6 +28,10 @@ Once you've changed the name to reflect `config/database.yml`, you can create yo
 
 Run `$ rspec` in your terminal to see what your app specifications are.
 
+Fail-fast is configured to run 2 tests at a time. It is suggested that you tackle a pair of tests together as they are generally related.
+
+Some tests are duplicated to keep pairing correct.
+
 ## Note
 
  * For testing purposes, your model files are created for you, but they are incomplete

@@ -10,5 +10,6 @@ describe Trainer, type: :model do
   it { should have_valid(:hat_color).when("Red", "Blue", "Black", nil) }
   it { should_not have_vaild(:hat_color).when('')}
 
-  it { should have_many :pokemon }
+  it { should have_many :pokemons }
+  it { should have_many :pokemons }
 end
